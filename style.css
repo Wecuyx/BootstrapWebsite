@@ -1,0 +1,300 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  font-family: sans-serif;
+}
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar
+{
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  padding: 0 !important;
+}
+.nav-logo
+{
+  height:30px;
+  padding-left: 10px;
+}
+.navbar-brand
+{
+  color: #fff !important;
+  padding-left: 10px;
+}
+.navbar-brand img
+{
+  height: 30px;
+  padding-left: 20px;
+}
+
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  color: #fff !important;
+  font-weight: 600;
+  float:right;
+  text-align: left;
+}
+.navbar-toggler
+{
+  outline: none !important;
+}
+#banner{
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.promo-title
+{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.logo
+{
+  width: 45px;
+  margin:20px;
+}
+#banner a
+{
+  color: #fff;
+  text-decoration: none;
+}
+.image-fluid
+{
+  width: 500px;
+}
+.carousel-inner
+{
+  width:100%;
+  max-height: 700px !important;
+}
+
+
+/*----------------intro------------------*/
+#Intro
+{
+  background-color:;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.intro-title
+{
+  font-weight: bold;
+  font-family: cursive;
+  padding-top: 70px;
+  font-size: 70px;
+}
+.intro-details
+{
+  font-size: 20px;
+  padding-top:60px;
+}
+
+/*---------------services section---------*/
+
+#services
+{
+  padding: 80px 0;
+  background-color: 	#DCDCDC;
+}
+.services-img
+{
+  width: 100px;
+  margin-top: 20;
+}
+.srv-info
+{
+  font-size: 15;
+  font-weight: normal;
+}
+.services h4
+{
+  padding:5px;
+  margin-top: 25px;
+  /*text-transform: uppercase;*/
+}
+.title::before
+{
+  content:'';
+  background: #7B1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform:translateY(63px);
+}
+
+
+#services .btn-primary
+{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+
+/*-----------Why Us------------------*/
+#how-we-work
+{
+  background: :#f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.why-us
+{
+  font-size: 30;
+  margin-top:70px;
+  color: #fff;
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+.why-us2
+{
+  float:right;
+  font-size: 30;
+  margin-top:70px;
+  color: #fff;
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to left, #a517ba,#5f1782);
+}
+/*-----------About Us Section --------------*/
+
+#about-us
+{
+  background: :#f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-title
+{
+  font-size:40px;
+  font-weight: 600;
+  padding:50px;
+  margin-top:8%;
+  margin-bottom: 10%;
+  margin:auto;
+}
+
+/*-------------TESTIMONTIALS section---------*/
+#testimontials
+{
+  background: :#f8f9fa;
+  background-color: 	#DCDCDC;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.testimontials
+{
+  border-left: 4px solid #7b1798;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.testimontials img
+{
+  height: 250px;
+  width: 250px;
+  border-radius: 70%;
+  margin: 0 10px;
+}
+.testimontials-p
+{
+  font-weight: normal;
+  font-size: 33;
+}
+.user-details
+{
+  padding-top: 1000px;
+  display: none;
+  font-size: 30px;
+}
+.user-position
+{
+  padding-top: 1000px;
+  display: none;
+  font-size:5px;
+}
+
+
+
+/*---------------Footer------------------*/
+
+#footer
+{
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+  color:#fff;
+}
+
+.footer-box
+{
+  padding:20px;
+}
+.footer-box img
+{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-box .fa
+{
+  margin-right: 8px;
+  font-size:25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top:7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+.footer-box .form-control
+{
+  box-shadow:none;
+  border:none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+.footer-box .btn-primary
+{
+  box-shadow:none;
+  border:none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+hr
+{
+  background: #fff;
+}
+
+.copyright
+{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align:  center;
+}
